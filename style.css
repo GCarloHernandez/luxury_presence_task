@@ -29,3 +29,87 @@ a :active { font-weight: 500;}
 .realtor-info h1 {font-family: 'Cormorant Garamond', serif; color: #fff; font-weight: 100; text-underline-offset: 10px; text-decoration: underline; text-decoration-thickness: 5px; }
 .realtor-info h3 { color: #fff; font-weight: 150; letter-spacing: 0;}
 .realtor-info h4 { color: #fff; font-weight: 300; letter-spacing: 0;}
+
+.sold-content {max-width: 100vw; height: 868px; background-color: #fff; border-bottom: 1px solid #C8C8C8;}
+.sold-grid {display: grid; grid-template-columns: repeat(3, 1fr);; grid-auto-rows: minmax(434px, auto);}
+.sold-grid div {display: flex; justify-content: center; align-items: center;  min-width: 300px ;}
+.sold-grid > div:nth-child(1) {background-image: url('assets/sample_1.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;}
+.sold-grid > div:nth-child(2) {display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 50px; gap: 40px;}
+.sold-grid > div:nth-child(3) {background-image: url('assets/sample_3.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;}
+.sold-grid > div:nth-child(4) {display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 30px; gap: 40px;}
+.sold-grid > div:nth-child(5) {background-image: url('assets/sample_2.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;}
+.sold-grid > div:nth-child(6) {display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 30px; gap: 40px;}
+.sold-grid h4 {font-weight: 600; text-align: center;}
+.sold-grid h5 {font-weight: 350; text-align: center;}
+
+.companies-content {max-width: 100vw; height: 150px; background-color: #fff; display: flex; flex-direction: row; gap: 300px; justify-content: center; align-items: center;}
+.companies-content > div:nth-child(1) {background-image: url('assets/company_logos_1.webp'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100px; width: 100px;}
+.companies-content > div:nth-child(2) {background-image: url('assets/company_logos_2.webp'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100px; width: 100px;}
+.companies-content > div:nth-child(3) {background-image: url('assets/company_logos_3.webp'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100px; width: 100px;}
+.companies-content > div:nth-child(4) {background-image: url('assets/company_logos_4.webp'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100px; width: 100px;}
+
+.search-content {max-width: 100vw; height: 706px; background-image: url('assets/find_home_darker.png'); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.search-content h2 {font-weight: 150; color: #fff; letter-spacing: 5px;}
+.search-title { margin: 100px 0 0 100px;}
+.search-input-wrapper {width: 1200px; height: 300px; margin: auto; padding: 20px; display: flex; flex-direction: column; background-color: #fff; border-radius: 10px; gap: 50px;}
+.search-input-wrapper h3{ font-weight: 400;}
+.row-1 {display: flex; flex-direction: row; gap: 30px;}
+.row-1 select { 
+    width: 260px; 
+    height: 60px; 
+    border-radius: 5px; 
+    font-size:24px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    appearance: none;           
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('/assets/drop-down-svg.svg');
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1.5rem;      
+    padding-right: 2rem;   
+    color: #121214;}
+.row-1 input { width: 260px; height: 60px; border-radius: 5px; font-size:24px; padding: 10px; border: 1px solid #8E8E8E;}
+.row-2 {display: flex; flex-direction: row; gap: 30px; margin-top: 30px;}
+.row-2 select { 
+    width: 260px; 
+    height: 60px; 
+    border-radius: 5px; 
+    font-size:24px; 
+    padding: 10px;  box-sizing: border-box; 
+    appearance: none;           
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('/assets/drop-down-svg.svg');
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1.5rem;      
+    padding-right: 2rem;   
+    color: #121214;}
+.row-2 button  { width: 260px; height: 60px; border-radius: 5px; font-size:24px; background-color: #121214; color: #fff; cursor: pointer;} 
+
+.gallery-content {display: flex; flex-direction: column; height: 900px; max-width: 100vw; background-color: #121214; align-items: center;}
+.gallery-title h2 {font-weight: 100; color: #fff; margin: 50px 0px 50px 0px; letter-spacing: 5px;}
+#main-slider .splide__slide img { width: 100%; height: auto; object-fit: cover; border-radius: 10px;}
+#main-slider { margin-bottom: 2rem;}
+#thumbnail-slider .splide__list { gap: 1rem; display: flex;}
+
+.services-content {display: flex; flex-direction: column; height: 1080px; max-width: 100vw; background-color: #AD8C8C; align-items: center; justify-content: center;}
+.services-title h2 { font-weight: 300; color: #fff;}
+.services-container {display: flex; margin-top: 100px; justify-content: center; align-items: center; gap: 5rem;}
+.services-container h4 {color: #fff; font-weight: 500; font-size: 30px;} .services-container h5 {color: #fff; font-weight: 200;}  .services-container img { width: 400px;  height: 400px;}
+.service-column-1 {display: flex; flex-direction: column; justify-content: center; align-items: center; width: 400px; height: auto;}
+.service-column-2 {display: flex; flex-direction: column; justify-content: center; align-items: center; width: 400px; height: auto;}
+.service-column-3 {display: flex; flex-direction: column; justify-content: center; align-items: center; width: 400px; height: auto;}
+.service-column-title { margin: 1.5rem 0 1.5rem 0;}
+.service-column-description { padding: 0 0.2rem 0 0.2rem; text-align: justify;}
+
+.socials-content { display: flex; justify-content: center; align-items: center; max-width: 100vw; height: 200px; background-color: #000; gap: 150px;}
+.socials-content img { height: 70px; width: 70px; background-size: cover; background-position: center; background-repeat: no-repeat;}
+.socials-content > img:nth-child(2) { height: 100px; width: 100px;}
+
+.contact-content { display: flex; max-width: 100vw; height: 1000px; justify-content: center; align-items: center;  
+    background-image: url('/assets/send_msg_bg.jpg');
+    background-size:cover; background-position: center;
+    background-repeat: no-repeat;}
