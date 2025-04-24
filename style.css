@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@100..900&display=swap');
+
+
+body { font-family: 'Inter', sans-serif;}
+a {text-decoration: none; color: #fff;}
+ul {list-style-type: none; }
+* { box-sizing: border-box;margin: 0;padding: 0;}
+h1 { font-size: 90px; } h2 { font-size: 48px; } h3 { font-size: 36px; } h4 { font-size: 24px; } h5 { font-size: 20px; } h6 { font-size: 18px; }
+a :active { font-weight: 500;}
+.logo {margin-left: 80px; margin-top: 20px;}  .logo img   {height: 150px; width: 400px;}
+.section { max-width:100vw; max-height: 1000px; }
+.landing-page { display: flex; flex-direction: column; background-image: url('assets/landing_page_darker.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; height: 1000px;}
+.nav-header {display: flex; gap: 100px;}
+.nav-container {display: flex; width: 100%; align-items: start; } 
+.nav-links {display: flex; gap: 80px; list-style: none;}
+.nav-links-div {display: flex; justify-content: start; align-items: center; width: auto; margin-top: 50px; margin-left: auto; margin-right: auto;}
+.BT-nav-middle { font-weight: 250; font-size: 36px; margin-top: 20px; } 
+.BT-nav-right { font-weight: 250; font-size: 36px; padding: 20px; border: 1px solid #fff; border-radius:5px; margin-left: auto; margin-right: 80px;  margin-top: 20px;}
+.landing-page-content {display: flex; flex-direction: column;  margin-top: 200px; margin-left: 80px; margin-right: auto; margin-bottom: auto;}
+.landing-page-content h2 {color: #fff; font-weight: 300;} 
+.landing-page-content h4 {color: #fff; font-weight: 300;} 
+.landing-page-content button { margin-top: 50px; font-size: 24px; font-weight: 700; color: #121214; background-color: #fff; border-radius: 5px; width: 200px; height: 60px; border: none; }
+
+.realtor-content {max-width: 100vw; height: 500px; background-color: #121214; display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 50px;}
+.realtor-info { text-align: right;}
+.realtor-img { height: 426px; width: 426px; }
+.realtor-img img { background-size: cover; background-position: center; background-repeat: no-repeat; height: 100%; width: 100%; border-radius: 50%;}
+.realtor-info h1 {font-family: 'Cormorant Garamond', serif; color: #fff; font-weight: 100; text-underline-offset: 10px; text-decoration: underline; text-decoration-thickness: 5px; }
+.realtor-info h3 { color: #fff; font-weight: 150; letter-spacing: 0;}
+.realtor-info h4 { color: #fff; font-weight: 300; letter-spacing: 0;}
