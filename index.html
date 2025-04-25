@@ -16,7 +16,9 @@
     <section class="landing-page">
         <nav class="nav-header">
             <div class="logo">
-                <img class="nav-logo" src="/assets/marci-white-logo.png" alt="MARCI METZGER">
+                <a href="https://luxury-presence-task.vercel.app/" target="_blank">
+                    <img class="nav-logo" src="/assets/marci-white-logo.png" alt="MARCI METZGER">
+                </a>
             </div> 
             <div class="nav-container">
                 <!-- <button class="hamburger-btn">&#9776;</button>  -->
@@ -27,14 +29,17 @@
                         <li><a class="BT-nav-middle" href="#About-us">About Us</a></li>
                     </ul> 
                 </div>
-                <a class="BT-nav-right" href="#lets-move">Let's Move</a>
+               
+            </div>
+            <div class="lets-move-container">
+            <a class="BT-nav-right" href="#lets-move">Let's Move</a>
             </div>
         </nav>
 
         <div class="landing-page-content">
             <h4>MARCI METZGER - THE RIDE REALTY GROUP</h4>
             <h2>PAHRUMP REALTOR</h2>
-            <button>CALL NOW</button>
+            <a href="tel:(206) 919-6886">CALL NOW</a>
         </div>
     </section>
 
@@ -91,8 +96,8 @@
                         <option value="hs">House</option>
                         <option value="apt">Apartment</option>
                     </select>
-                    <input placeholder="Min Price"></input>
-                    <input placeholder="Max Price"></input>
+                    <input placeholder="Min Price" type="number"></input>
+                    <input placeholder="Max Price" type="number"></input>
                 </div>
                 <div class="row-2">
                     <select name="Bedrooms">
@@ -198,10 +203,10 @@
     </section>
 
     <section class="socials-content">
-        <img src="/assets/fb_svg.png">
-        <img src="/assets/insta_svg.png">
-        <img src="/assets/linkedin_svg.png">
-        <img src="/assets/yelp_svg.png">
+        <a href="https://www.facebook.com/MarciHomes/" target="_blank"><img src="/assets/fb_svg.png"></a>
+        <a href="https://www.instagram.com/marciandlauren_nvrealtors/" target="_blank"><img src="/assets/insta_svg.png"></a>
+        <a href="https://www.linkedin.com/in/marci-metzger-30642496/" target="_blank"><img src="/assets/linkedin_svg.png"></a>
+        <a href="https://www.yelp.com/biz/marci-metzger-the-ridge-realty-pahrump" target="_blank"><img src="/assets/yelp_svg.png"></a>
     </section>
  
     <section class="contact-content"> 
@@ -214,21 +219,21 @@
                 <h6>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</h6>
             </div>
             <div class="contact-column-2">
-                <div class="contact-inline"><h5>CONTACT US</h5> <img src="/assets/WhatsApp.svg.webp"> </div>
+                <div class="contact-inline"> <div class="contact-center"><h5>CONTACT US</h5></div> <a href="https://api.whatsapp.com/send/?phone=14259412560&text&type=phone_number&app_absent=0" target="_blank"> <img src="/assets/WhatsApp.svg.webp"> </div> </a>
                 <h2>Send us a message</h2>
                 <h6>Marci Metzger - THE RIDGE REALTY GROUP
                     3190 HW-160, Suite F, Pahrump, Nevada 89048, United States</h6>
-                <h5 class="brand-color">(206) 919-6886</h5>
-                <div class="contact-inline"><h5>Open today</h5> 
+                <a href="tel:(206) 919-6886"><h5 class="brand-color">(206) 919-6886</h5></a>
+                <div class="contact-inline">
                     <select name="Sort By">
-                        <option selected disabled>08:00 a.m. - 07:00 p.m.</option>
-                        <option disabled value="mon">Mon 08:00 a.m. - 07:00 p.m.</option>
-                        <option disabled value="tue">Tue 08:00 a.m. - 07:00 p.m.</option>
-                        <option disabled value="wed">Wed 08:00 a.m. - 07:00 p.m.</option>
-                        <option disabled value="thu">Thu 08:00 a.m. - 07:00 p.m.</option>
-                        <option disabled value="fri">Fri 08:00 a.m. - 07:00 p.m.</option>
-                        <option disabled value="sat">Sat 08:00 a.m. - 07:00 p.m.</option>
-                        <option disabled value="sun">Sun 08:00 a.m. - 07:00 p.m.</option>
+                        <option  selected disabled> Open today 08:00 a.m. - 07:00 p.m.</option>
+                        <option  disabled value="mon">Mon 08:00 a.m. - 07:00 p.m.</option>
+                        <option  disabled value="tue">Tue 08:00 a.m. - 07:00 p.m.</option>
+                        <option  disabled value="wed">Wed 08:00 a.m. - 07:00 p.m.</option>
+                        <option  disabled value="thu">Thu 08:00 a.m. - 07:00 p.m.</option>
+                        <option  disabled value="fri">Fri 08:00 a.m. - 07:00 p.m.</option>
+                        <option  disabled value="sat">Sat 08:00 a.m. - 07:00 p.m.</option>
+                        <option  disabled value="sun">Sun 08:00 a.m. - 07:00 p.m.</option>
                     </select>
                 </div>
                 <h5>Open daily 08:00 a.m. - 07:00 p.m.</h5>
@@ -238,11 +243,18 @@
     </section>    
 
     <section class="gmaps-plugin-content">
-
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4180.484429588365!2d-115.95786442348606!3d36.18424530217744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c6398c318f750d%3A0x1e826042732d87c6!2s3190%20NV-160%2C%20Pahrump%2C%20NV%2089048%2C%20USA!5e1!3m2!1sen!2sph!4v1745564849520!5m2!1sen!2sph" 
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
     <section class="footer-content">
-
+        <div class="footer-socials">
+            <a href="https://www.facebook.com/MarciHomes/" target="_blank"><img src="/assets/fb_svg.png"></a>
+            <a href="https://www.instagram.com/marciandlauren_nvrealtors/" target="_blank"><img src="/assets/insta_svg.png"></a>
+            <a href="https://www.linkedin.com/in/marci-metzger-30642496/" target="_blank"><img src="/assets/linkedin_svg.png"></a>
+            <a href="https://www.yelp.com/biz/marci-metzger-the-ridge-realty-pahrump" target="_blank"><img src="/assets/yelp_svg.png"></a>
+        </div>
+        <div class="footer-copyright"><h6>Copyright © 2023 Marci METZGER Homes - All Rights Reserved</h6></div>
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
@@ -254,6 +266,9 @@
             pagination : false,
             arrows     : false,
             cover      : true,
+            autoplay   : true,         // 👈 Enable autoplay
+            interval   : 3000,         // 👈 3 seconds per slide (optional)
+            pauseOnHover: true,        // 👈 Pause on mouse hover (optional)
             });
 
             var thumbnails = new Splide('#thumbnail-slider', {
@@ -264,6 +279,7 @@
             focus           : 'start',
             pagination      : false,
             cover           : true,
+            arrows          : true,
             dragMinThreshold: {
                 mouse: 4,
                 touch: 10,
