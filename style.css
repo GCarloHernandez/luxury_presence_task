@@ -38,7 +38,7 @@ select:focus {outline: none; box-shadow: none; }
 .realtor-info h4 { color: #fff; font-weight: 300; letter-spacing: 0;}
 
 .sold-content {max-width: 100vw; height: 868px; background-color: #fff; border-bottom: 1px solid #C8C8C8;}
-.sold-grid {display: grid; grid-template-columns: repeat(3, 1fr);; grid-auto-rows: minmax(434px, auto);}
+.sold-grid {display: grid; grid-template-columns: repeat(3, 1fr); grid-auto-rows: minmax(434px, auto);}
 .sold-grid div {display: flex; justify-content: center; align-items: center;  min-width: 300px ;}
 .sold-grid > div:nth-child(1) {background-image: url('assets/sample_1.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;}
 .sold-grid > div:nth-child(2) {display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 50px; gap: 40px;}
@@ -101,6 +101,7 @@ select:focus {outline: none; box-shadow: none; }
 #main-slider .splide__slide img { width: 100%; height: auto; object-fit: cover; border-radius: 10px;}
 #main-slider { margin-bottom: 2rem;}
 
+.splide-container {display: flex; flex-direction: column; }
 #thumbnail-slider .splide__list { gap: 1rem; display: flex;}
 #thumbnail-slider .splide__slide.is-active {border: 4px solid #fff;opacity: 1;transition: border 0.3 ease;}
 #thumbnail-slider .splide__arrow { top: 50%; transform: translateY(-50%); z-index: 10; color: #fff; }
@@ -177,3 +178,42 @@ select:focus {outline: none; box-shadow: none; }
 .footer-socials >a:nth-of-type(3) img{height: 25px; width: 25px;}
 .footer-socials >a:nth-of-type(4) img{height: 25px; width: 25px;}
 .footer-copyright {display: flex; justify-content: center; align-items: center; text-align: center;} .footer-copyright h6 {font-size: 14px; font-weight: 200; color: #A7A7A7;}
+
+/* LAPTOP DEFAULT SCALING MEDIA QUERY (125% scaling) */
+@media (resolution: 120dpi) {
+    .nav-header {gap: 160px;}
+    .landing-page {height: 800px;}
+
+    .realtor-content{height: 380px;}
+    .realtor-img {height: 320px; width: 320px;}
+    .realtor-info h1 {font-size: 70px;}
+    .realtor-info h3 {font-size: 28px;}
+    .realtor-info h4 {font-size: 18px;}
+
+    .sold-content {height: 768px;}
+    .sold-grid {grid-auto-rows: minmax(384px, auto);}
+
+    .search-input-wrapper {width: 940px;}
+    .row-1 input {width: 200px;} .row-1 select {width: 200px;} 
+    .row-2 input {width: 200px;} .row-2 select {width: 200px;} .row-2 button {width: 200px;}
+
+    .gallery-content {height: 800px;}
+    .splide-container { gap: 50px;}
+    #main-slider { height: 400px; }
+    #main-slider .splide__slide {max-height: 440px;}
+    #thumbnail-slider {height: 150px; }
+
+    .services-container {margin-top: 60px;}
+    .services-content {height: 800px;}
+    .service-column-1 {width: 340px;}
+    .service-column-2 {width: 340px;}
+    .service-column-3 {width: 340px;}
+    .service-column-1 img {width: 340px; height: 340px;}
+    .service-column-2 img {width: 340px; height: 340px;}
+    .service-column-3 img {width: 340px; height: 340px;}
+    .services-container h4 { font-size: 26px;}
+    .services-container h5 { font-size: 17px;}
+
+
+    
+ }
