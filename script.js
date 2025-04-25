@@ -44,23 +44,13 @@ document.addEventListener("DOMContentLoaded", function () {
     e.stopPropagation(); 
     navDiv.classList.toggle('active'); 
   });
-  
-  // Close nav when clicking outside
+
   document.addEventListener('click', (e) => {
     if (!navDiv.contains(e.target) && !hamburgerBtn.contains(e.target)) {
       navDiv.classList.remove('active');
     }
   });
-  
-  // Ensure the menu is closed on page load for mobile
-  window.addEventListener('resize', () => {
-    if (window.innerWidth > 900) {
-      navDiv.classList.remove('active');  // Remove active class when window width > 900px
-      navDiv.style.display = 'flex';  // Ensure it is displayed normally
-    } else {
-      navDiv.style.display = 'none';  // Ensure the nav is hidden if less than 900px
-    }
-  });
+
   // AOS INIT
   AOS.init({
     duration: 500,

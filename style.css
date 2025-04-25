@@ -5,7 +5,7 @@
 body { font-family: 'Inter', sans-serif;}
 a {text-decoration: none; color: #fff;}
 ul {list-style-type: none; }
-* { box-sizing: border-box;margin: 0;padding: 0; }
+* { box-sizing: border-box;margin: 0;padding: 0;}
 h1 { font-size: 90px; } h2 { font-size: 48px; } h3 { font-size: 36px; } h4 { font-size: 24px; } h5 { font-size: 20px; } h6 { font-size: 18px; }
 a :active { font-weight: 500;}
 input:focus {outline: none; box-shadow: none; border: none;}
@@ -256,6 +256,7 @@ select:focus {outline: none; box-shadow: none; }
 
  /* MOBILE DEVICE MEDIA QUERY */
  @media (max-width: 900px) { 
+    * {overflow-x: hidden;}
     .logo img { margin-left: 10px; height: clamp(90px, 9vw, 150px); width: clamp(200px, 25vw, 400px);}
     .nav-header {justify-content: flex-start; padding-left: 50px;}
     .nav-links {gap: clamp(10px, 5vw, 80px); }
