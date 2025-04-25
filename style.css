@@ -352,7 +352,7 @@ select:focus {outline: none; box-shadow: none; }
     
     .contact-container {flex-direction: column-reverse; padding: 5px; height: auto; margin: 70px; width: clamp(300px, 80vw, 400px) ;}
 
-    .contact-column-2 select { font-size: clamp(12px, 2vw, 15px);}
+    .contact-column-2 select { font-size: clamp(13.5px, 2vw, 15px);}
 
     .socials-content {gap: clamp(30px, 7vw, 75px );}
     .socials-content img {height: clamp(30px, 5vw, 50px); width: clamp(30px, 5vw, 50px);}
